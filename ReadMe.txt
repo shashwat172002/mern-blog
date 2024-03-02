@@ -1,0 +1,71 @@
+dependency used till now ->> react router dom tailwind vite react-icons. npm init -y 
+npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs
+
+
+............................................................1.......................................................................................                                               1
+
+dependency used till now -react router dom tailwind vite react-icons.
+
+
+
+............................................................2.....................................................................................
+
+Designed the navbar used a different type of UI designer which is flowbyte its easy to use and similiar to HTML
+
+
+used span tag for the brand name coder's blog
+<span> tag is used for different span we can apply two different styles in same line only 
+
+
+<Link> is used its like anchor tag only but in link tag the site is not refreshed and it has a attribut which is "to"
+
+
+used "useLocation" which is intended to know on which page is my site
+useLocation hook from a React Router library to get the current location object in a React component. The pathname property of the location 
+object represents the current URL path.
+
+
+ The as={'div'} prop is saying, "even though I'm using a link (<Link>), visually render it as a div." This can be useful if you 
+ want the styling of a link but don't want the default anchor (<a>) behavior (e.g., navigating to a new page).
+
+
+............................................................3.....................................................................................
+
+Created a live server at the port 3000 using app.listen()
+This code is telling the Express application to start listening for incoming HTTP requests on port 3000.
+
+
+............................................................4.....................................................................................
+
+created and connected mongodb database and used dotenv and enviroment variable as usage and safety
+
+
+............................................................5.....................................................................................
+
+
+created a user model you know how to inside user.model.js
+
+
+............................................................6..................................................................
+
+app.use here basically we are creating a test route to test whether they are working or not
+
+
+............................................................7.................................................................
+
+we created a route for authentication and its controller the route creation is simple only you know that 
+
+inside the controller we made a async funtion why? -> Database operations, such as saving data, are typically asynchronous. They may take some time to complete, and you don't want to block the execution of other code while waiting for the database operation to finish.
+
+inside this we just created a sample function and just put it inside the try and catch block
+
+const { username, email, password } = req.body;
+this line destructures the json data and can be used directly
+
+
+............................................................8................................................................
+
+    
+
+
+
