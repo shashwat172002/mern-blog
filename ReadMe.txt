@@ -65,6 +65,21 @@ this line destructures the json data and can be used directly
 
 ............................................................8................................................................
 
+export const signup = async (req, res, next) => 
+in the auth file controller we added the next attribute in the parenthesis to error handle it helps handle error
+in the index file we used app.use this the middleware to use in utils in error.js file
+with the help of error middleware we made a error handler function 
+
+
+............................................................9................................................................
+
+Made a simple sign up page using flowbyte and tailwing
+
+............................................................10................................................................
+
+
+
+
     
 
 
