@@ -1,5 +1,5 @@
-dependency used till now ->> react router dom tailwind vite react-icons. npm init -y 
-npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs
+dependency used till now ->> react router dom tailwind vite react-icons. npm init -y npm i jsonwebtoken
+npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken
 
 
 ............................................................1.......................................................................................                                               1
@@ -94,3 +94,11 @@ Made Footer of the website simple UI nothing else
 
 ............................................................11................................................................
 
+create a auth route for sign-in page inside auth.route
+similiar to sign-up we use this also 
+but inorder to verify we would need jsonwebtoken
+finone function is used in order to find the user exists or not with email search
+bycrypt is used to compare the password
+now understand the code
+
+............................................................12................................................................
