@@ -78,9 +78,15 @@ Made a simple sign up page using flowbyte and tailwing
 ............................................................10................................................................
 
 
-
-
+we are using an onchange event to call a function handle change for the inputs which are password username and email
+fir on submiting we made a onsubmit listenar function will be handlesubmit since we will be saving data and we need to
+ contact with database we use async function
+since backend is on local host 3000 and front end is on local host 5500 we create proxy in viteconfigjs
+made error msg and loading effect
+after successful submission useNavigator is used to redirect to sign-in page
     
+
+............................................................10................................................................
 
 
 
