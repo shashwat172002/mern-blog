@@ -1,5 +1,6 @@
 dependency used till now ->> react router dom tailwind vite react-icons. npm init -y npm i jsonwebtoken
 npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken npm install @reduxjs/toolkit react-redux
+npm i redux-persist
 
 
 ............................................................1.......................................................................................                                               1
@@ -127,3 +128,10 @@ an application changes in response to actions dispatched to the Redux store
 
  Actions are payloads of information that describe the intention to change the state. Actions are plain 
  JavaScript objects with a type property indicating the type of action and additional data if needed.
+
+ ............................................................14................................................................
+
+ Redux Persist helps persist the Redux state of an application across sessions by storing it in a storage engine, 
+ such as localStorage or AsyncStorage (for React Native applications).
+
+ we use redux persist in order to save the state
