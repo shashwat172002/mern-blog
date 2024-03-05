@@ -1,6 +1,6 @@
 dependency used till now ->> react router dom tailwind vite react-icons. npm init -y npm i jsonwebtoken
 npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken npm install @reduxjs/toolkit react-redux
-npm i redux-persist
+npm i redux-persist npm install firebase
 
 
 ............................................................1.......................................................................................                                               1
@@ -135,3 +135,7 @@ an application changes in response to actions dispatched to the Redux store
  such as localStorage or AsyncStorage (for React Native applications).
 
  we use redux persist in order to save the state
+
+ ............................................................15................................................................
+
+ making google auth using firebase
