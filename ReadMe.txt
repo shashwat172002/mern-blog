@@ -1,5 +1,5 @@
 dependency used till now ->> react router dom tailwind vite react-icons. npm init -y npm i jsonwebtoken
-npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken
+npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken npm install @reduxjs/toolkit react-redux
 
 
 ............................................................1.......................................................................................                                               1
@@ -102,3 +102,28 @@ bycrypt is used to compare the password
 now understand the code
 
 ............................................................12................................................................
+
+made the sign api and the ui of sign in page 
+its ditto of sign up page with obvious change 
+one thing was there that loading effect was still continuing for long time as we entered some wrong values in place of 
+username password and email so its corrected by setting the loading effect false before the returning so done that
+
+
+............................................................13................................................................
+
+
+used redux to toolkit to save the data in front end
+created store by seeing documentation
+did all the necessary things on documentation
+created userslicejs file 
+
+according to our website we have only 3 states till now which is current user,error and loading
+there are three reducers actually four
+"reducers" refer to functions that specify how the state of 
+an application changes in response to actions dispatched to the Redux store
+
+ State represents the current data and the overall state of the application. In Redux, the state is typically a plain 
+ JavaScript object that holds the entire state tree of your application.
+
+ Actions are payloads of information that describe the intention to change the state. Actions are plain 
+ JavaScript objects with a type property indicating the type of action and additional data if needed.
