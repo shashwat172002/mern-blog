@@ -150,6 +150,12 @@ an application changes in response to actions dispatched to the Redux store
 dark theme 
 
 
+ ............................................................17..............................................................
+
+ made dashboard as private route it can only be accessed once a user is logged in 
+
+ 
+
 
 
 
