@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
-import {Navigate } from 'react-router-dom';
-import Dashboard from '../pages/Dashboard';
+import {Navigate,Outlet } from 'react-router-dom';
+
 
 export default function PrivateRoute() {
   const { currentUser } = useSelector((state) => state.user);
-  return currentUser ? <Dashboard /> : <Navigate to='/sign-in' />;
+  return currentUser ? <Outlet /> : <Navigate to='/sign-in' />;
 }

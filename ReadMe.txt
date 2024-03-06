@@ -152,9 +152,15 @@ dark theme
 
  ............................................................17..............................................................
 
- made dashboard as private route it can only be accessed once a user is logged in 
+made dashboard as private route it can only be accessed once a user is logged in 
+PrivateRoute is responsible for checking if the user is authenticated. If authenticated, it renders the <Outlet />. 
+The child routes (e.g., /dashboard/profile) are then rendered within the Dashboard component. If you directly used a 
+specific component like <Dashboard /> instead of <Outlet />, those child routes wouldn't be rendered.
+So, the use of <Outlet /> allows for more flexibility in handling nested routes and is a key concept in React
+ Router for rendering child routes within parent routes.
 
- 
+  ............................................................17..............................................................
+
 
 
 
