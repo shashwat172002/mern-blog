@@ -161,6 +161,11 @@ So, the use of <Outlet /> allows for more flexibility in handling nested routes 
 
   ............................................................17..............................................................
 
+made dashboard sidebar 
+need to know about params and navigation and also more things
+
+
+ ............................................................18 ..............................................................
 
 
 
