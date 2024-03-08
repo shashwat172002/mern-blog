@@ -1,6 +1,6 @@
 dependency used till now ->> react router dom tailwind vite react-icons. npm init -y npm i jsonwebtoken
 npm i express nodemon npm i mongoose npm i dotenv  npm i bcryptjs npm i jsonwebtoken npm install @reduxjs/toolkit react-redux
-npm i redux-persist npm install firebase npm i --save react-circular-progressbar npm i cookie-parser
+npm i redux-persist npm install firebase npm i --save react-circular-progressbar npm i cookie-parser npm i react-quill
 
 
 ............................................................1.......................................................................................                                               1
